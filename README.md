@@ -13,7 +13,7 @@
 ```
 
 
-## options
+## Options
 ```html
 <body>
   ...
