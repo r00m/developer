@@ -12,7 +12,7 @@
   </script>
 </body>
 ```
-[demo](https://r00m.chat/static/developer/demo/basic-usage.html)
+[demo](/demo/basic-usage.html)
 
 
 ## Methods
@@ -23,7 +23,6 @@ r00m.close();
 
 r00m.toggle();
 ```
-[demo](/test/index.html)
 
 
 ## Options
@@ -47,7 +46,7 @@ r00m.toggle();
   </script>
 </body>
 ```
-[demo](https://r00m.chat/static/developer/demo/basic-usage-options.html)
+[demo](/demo/basic-usage-options.html)
 
 
 ## Custom iframe
@@ -72,6 +71,6 @@ r00m.toggle();
   </script>
 </body>
 ```
-[demo 1](https://r00m.chat/static/developer/demo/custom-iframe-1.html)
+[demo 1](/demo/custom-iframe-1.html)
 
-[demo 2](https://r00m.chat/static/developer/demo/custom-iframe-2.html)
+[demo 2](/demo/custom-iframe-2.html)
