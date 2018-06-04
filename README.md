@@ -5,7 +5,7 @@
 <body>
   ...
   
-  <script src="http://r00m.local/plugin/web/v1.0/bundle.js"></script>
+  <script src="https://r00m.chat/plugin/web/v1.0/bundle.js"></script>
   <script>
     r00m.chat();
   </script>
