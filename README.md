@@ -13,6 +13,16 @@
 ```
 
 
+## Methods
+```javascript
+r00m.open();
+
+r00m.close();
+
+r00m.toggle();
+```
+
+
 ## Options
 ```html
 <body>
