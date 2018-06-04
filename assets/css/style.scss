@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 .page-header {
-  background: transparent;
+  background: #333;
 }
 .page-header .btn{
   display: none;
@@ -12,8 +12,8 @@
   display:none;
 }
 .main-content h1, .main-content h2, .main-content h3{
-  color: #ddd;
+  color: #333;
 }
 body{
-  background: linear-gradient(to right top, #de86f6, #ff7cc9, #ff8498, #ff9b70, #ffb759);
+  background: #fff;
 }
