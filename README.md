@@ -1,5 +1,6 @@
 # **[r00m.chat](https://r00m.chat)** for developer
 
+
 ## Basic Usage
 ```html
 <body>
@@ -11,6 +12,7 @@
   </script>
 </body>
 ```
+[demo](https://r00m.chat/static/developer/demo/basic-usage.html)
 
 
 ## Methods
@@ -44,6 +46,7 @@ r00m.toggle();
   </script>
 </body>
 ```
+[demo](https://r00m.chat/static/developer/demo/basic-usage-options.html)
 
 
 ## Custom iframe
@@ -68,3 +71,6 @@ r00m.toggle();
   </script>
 </body>
 ```
+[demo 1](https://r00m.chat/static/developer/demo/custom-iframe-1.html)
+
+[demo 2](https://r00m.chat/static/developer/demo/custom-iframe-2.html)
