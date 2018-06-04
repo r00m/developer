@@ -23,6 +23,7 @@ r00m.close();
 
 r00m.toggle();
 ```
+[demo](/test/index.html)
 
 
 ## Options
