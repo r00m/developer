@@ -3,7 +3,13 @@
 
 @import "{{ site.theme }}";
 .page-header {
-  background: #333;
+  background: transparent;
+}
+.project-name{
+  color: #333;
+}
+.project-tagline{
+  color:#666;
 }
 .page-header .btn{
   display: none;
