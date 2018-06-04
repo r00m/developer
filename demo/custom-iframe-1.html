@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="minimal-ui, width=device-width, shrink-to-fit=no, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+
+    <meta charset="utf-8">
+
+    <title>Demo - Custom iframe</title>
+
+    <style>
+        body {
+            background-color: rgb(179, 94, 94);
+        }
+
+        #my-iframe {
+            height: 100%;
+            width: 360px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            border: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <iframe id="my-iframe"></iframe>
+
+    <script src="https://r00m.chat/plugin/web/v1.0/bundle.js"></script>
+    <script>
+        r00m.chat({
+            iframe: {
+                id: 'my-iframe',
+            }
+        });
+    </script>
+
+</body>
+
+</html>

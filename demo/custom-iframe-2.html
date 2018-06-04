@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="minimal-ui, width=device-width, shrink-to-fit=no, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+
+    <meta charset="utf-8">
+
+    <title>Demo - Custom iframe</title>
+
+    <style>
+        .vid{
+            width:100%; 
+            height:100%; 
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+        #my-iframe {
+            height: calc(100% - 50px);
+            width: 300px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            border: none;
+            z-index: 1;
+            opacity: 0.25;
+            transition: opacity 0.5s;
+        }
+        #my-iframe:hover, #my-iframe:active{
+            opacity: 1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <iframe class="vid" src="https://www.youtube.com/embed/xprxub1EMcI?autoplay=1&rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+    <iframe id="my-iframe"></iframe>
+
+    <script src="https://r00m.chat/plugin/web/v1.0/bundle.js"></script>
+    <script>
+        r00m.chat({
+            iframe: {
+                id: 'my-iframe',
+                nickname: 'demo-user',
+                theme: 'dark',
+                backgroundColor: 'transparent',
+            }
+        });
+    </script>
+
+</body>
+
+</html>
