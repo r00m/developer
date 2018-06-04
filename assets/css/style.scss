@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 .page-header {
-  background: linear-gradient(to right top, #e0a31a, #e48a00, #e86f00, #ea4d00, #eb0e0e);
+  background: transparent;
 }
 .page-header .btn{
   display: none;
@@ -13,4 +13,7 @@
 }
 .main-content h1, .main-content h2, .main-content h3{
   color: #333;
+}
+body{
+  background: linear-gradient(to right top, #3ae5ed, #00c2f8, #009af9, #366ae1, #8521a8);
 }
