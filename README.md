@@ -34,3 +34,27 @@
   </script>
 </body>
 ```
+
+
+## Custom iframe
+```html
+<body>
+  ...
+  
+  <iframe id="my-iframe"></iframe>
+  
+  <script src="https://r00m.chat/plugin/web/v1.0/bundle.js"></script>
+  <script>
+    r00m.chat({
+      iframe:{
+        id: "my-iframe",  //required!!!
+        theme: 'dark',
+        backgroundColor: '',
+        nickname: '',
+        room: '',
+        secretKey: '',
+      }
+    });
+  </script>
+</body>
+```
