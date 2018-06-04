@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 .page-header {
-  background: #333;
+  background: linear-gradient(to right top, #141618, #0d1b2e, #131e43, #2d1952, #4f0257);
 }
 .page-header .btn{
   display: none;
