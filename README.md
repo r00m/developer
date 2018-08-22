@@ -6,7 +6,7 @@
 <body>
   ...
   
-  <script src="https://r00m.chat/plugin/web/v1.0.1/bundle.js"></script>
+  <script src="https://r00m.chat/plugin/web/v1.0.2/bundle.js"></script>
   <script>
     r00m.chat();
   </script>
@@ -30,7 +30,7 @@ r00m.toggle();
 <body>
   ...
   
-  <script src="https://r00m.chat/plugin/web/v1.0.1/bundle.js"></script>
+  <script src="https://r00m.chat/plugin/web/v1.0.2/bundle.js"></script>
   <script>
     r00m.chat({
       nickname: '',
@@ -56,7 +56,7 @@ r00m.toggle();
   
   <iframe id="my-iframe"></iframe>
   
-  <script src="https://r00m.chat/plugin/web/v1.0.1/bundle.js"></script>
+  <script src="https://r00m.chat/plugin/web/v1.0.2/bundle.js"></script>
   <script>
     r00m.chat({
       iframe:{
