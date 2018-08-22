@@ -15,7 +15,7 @@
 [demo](/demo/basic-usage.html)
 
 
-
+&nbsp;
 
 ## Methods
 ```javascript
@@ -27,7 +27,7 @@ r00m.toggle();
 ```
 
 
-
+&nbsp;
 
 ## Options
 ```html
@@ -53,7 +53,7 @@ r00m.toggle();
 [demo](/demo/basic-usage-options.html)
 
 
-
+&nbsp;
 
 ## Custom iframe
 ```html
