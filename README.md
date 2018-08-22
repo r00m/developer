@@ -16,6 +16,7 @@
 
 
 
+
 ## Methods
 ```javascript
 r00m.open();
@@ -24,6 +25,7 @@ r00m.close();
 
 r00m.toggle();
 ```
+
 
 
 
@@ -49,6 +51,7 @@ r00m.toggle();
 </body>
 ```
 [demo](/demo/basic-usage-options.html)
+
 
 
 
